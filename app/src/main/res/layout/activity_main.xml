@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="good_idea"
+        android:text="@string/good_idea" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="what_is_your_name"
+        android:text="@string/what_is_your_name" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="hi_bye"
+        android:text="@string/hi_bye" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="see_you_soon"
+        android:text="@string/see_you_soon" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="maybe"
+        android:text="@string/maybe" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="i_am_cold"
+        android:text="@string/i_am_cold" />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="how_are_you"
+        android:text="@string/how_are_you" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:onClick="playSound"
+        android:tag="can_you_help_me"
+        android:text="@string/can_you_help_me" />
+
+
+</GridLayout>

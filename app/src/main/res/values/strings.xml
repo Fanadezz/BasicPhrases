@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basic Phrases</string>
+    <string name="good_idea">Good Idea</string>
+    <string name="what_is_your_name">What is Your Name?</string>
+    <string name="hi_bye">Hi! / Bye!</string>
+    <string name="see_you_soon">See You Soon</string>
+    <string name="maybe">Maybe</string>
+    <string name="i_am_cold">I\'m cold</string>
+    <string name="how_are_you">How Are You?</string>
+    <string name="can_you_help_me">Can You Help Me?</string>
+
+</resources>
